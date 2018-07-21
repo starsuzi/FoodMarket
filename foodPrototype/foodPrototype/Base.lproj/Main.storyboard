@@ -328,14 +328,6 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Button" image="like (3)"/>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yl5-H0-5HC">
-                                                    <rect key="frame" x="251" y="17" width="108" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="채팅으로 거래하기"/>
-                                                    <connections>
-                                                        <segue destination="SqQ-dq-uit" kind="show" id="1d4-2S-yCg"/>
-                                                    </connections>
-                                                </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20000원" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0f-7L-QF5">
                                                     <rect key="frame" x="85" y="22" width="66" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -343,8 +335,18 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="채팅으로 거래하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfO-vR-Xnk">
+                                                    <rect key="frame" x="236" y="22" width="123" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="SqQ-dq-uit" kind="show" id="mHA-1m-0sV"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="89" id="Ost-Pc-RSx">
                                         <rect key="frame" x="0.0" y="398" width="375" height="89"/>
@@ -485,7 +487,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5yE-fg-HiV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="VED-hb-0rs"/>
             </objects>
-            <point key="canvasLocation" x="-3022" y="2534"/>
+            <point key="canvasLocation" x="-3023.1999999999998" y="2533.5832083958021"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="90Y-b6-ahf">
@@ -639,6 +641,8 @@
         <!--Table View Controller-->
         <scene sceneID="vLg-pb-mK7">
             <objects>
+                <tapGestureRecognizer id="waw-V3-Pdp"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kCK-r4-85T" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="lIM-RT-RPx" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="aCM-6b-H50">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -680,8 +684,6 @@
                         </connections>
                     </tableView>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kCK-r4-85T" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="waw-V3-Pdp"/>
             </objects>
             <point key="canvasLocation" x="-1604" y="2534"/>
         </scene>
@@ -3190,6 +3192,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic__chat-room" translatesAutoresizingMaskIntoConstraints="NO" id="aoL-Mc-g0e">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic__chat-bar" translatesAutoresizingMaskIntoConstraints="NO" id="l79-fc-J1B">
                                 <rect key="frame" x="0.0" y="612" width="375" height="55"/>
@@ -3210,21 +3213,7 @@
                             <outletCollection property="gestureRecognizers" destination="MfV-sg-9e5" appends="YES" id="IVw-hs-Kt8"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="채팅방" id="imq-OV-lKn">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="NWC-A5-a5U">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aV5-06-Gf9">
-                                <rect key="frame" x="16" y="7" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="닫기"/>
-                                <connections>
-                                    <action selector="keyboardDismiss:" destination="SqQ-dq-uit" eventType="touchUpInside" id="RMG-9o-70N"/>
-                                </connections>
-                            </button>
-                            <connections>
-                                <action selector="modalDismiss:" destination="SqQ-dq-uit" id="NFN-he-G01"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="채팅방" id="imq-OV-lKn"/>
                     <nil key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XfD-AE-vsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3270,7 +3259,7 @@
         <image name="프로필" width="118" height="118"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Kmu-1J-3aq"/>
+        <segue reference="XJ9-If-Ned"/>
         <segue reference="6ds-l5-fNI"/>
     </inferredMetricsTieBreakers>
 </document>
