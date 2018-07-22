@@ -650,9 +650,7 @@
                 <tapGestureRecognizer id="waw-V3-Pdp"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCK-r4-85T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-
             <point key="canvasLocation" x="-1604" y="2534"/>
-
         </scene>
         <!--직거래-->
         <scene sceneID="YrI-Vf-7ys">
