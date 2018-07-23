@@ -3199,7 +3199,7 @@
                                         <rect key="frame" x="0.0" y="841" width="375" height="41"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aLx-yA-Cpn" id="SmB-Rw-dzM">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="40.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="349" height="40.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이 게시글 신고하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPW-b6-ccR">
@@ -5289,6 +5289,6 @@
         <segue reference="bzE-mj-CXj"/>
         <segue reference="XJ9-If-Ned"/>
         <segue reference="TlY-vg-64x"/>
-        <segue reference="Jvq-RY-hvW"/>
+        <segue reference="6ds-l5-fNI"/>
     </inferredMetricsTieBreakers>
 </document>
