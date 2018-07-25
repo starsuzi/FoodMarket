@@ -24,8 +24,9 @@ class MyBuyingListViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "buyingCell", for: indexPath)
-
+        let item = page[indexPath.row]
         
+        return cell
         
     }
     
