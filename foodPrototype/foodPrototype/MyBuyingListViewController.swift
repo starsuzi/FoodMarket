@@ -6,43 +6,44 @@
 //  Copyright © 2018년 송. All rights reserved.
 //
 
-import UIKit
-
-struct Page{
-    var imageName: String
-    var title: String
-    var mainUser: String
-    var tag: String
-}
-
-class MyBuyingListViewController: UIViewController, UITableViewDataSource {
-    var page : [Page] = [Page(imageName: "", title: "", mainUser: "", tag: "")]
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "buyingCell", for: indexPath)
-
-        
-        
-    }
-    
-    
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+//import UIKit
+//
+//struct Page{
+//    var imageName: String
+//    var title: String
+//    var mainUser: String
+//    var tag: String
+//}
+//
+//class MyBuyingListViewController: UIViewController, UITableViewDataSource {
+//    var page : [Page] = [Page(imageName: "", title: "", mainUser: "", tag: "")]
+//
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//
+//    }
+//
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "buyingCell", for: indexPath)
+//
+//
+//
+//    }
+//}
+//
+//
+//
+//
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//
+//        // Do any additional setup after loading the view.
+//    }
+//
+//    override func didReceiveMemoryWarning() {
+//        super.didReceiveMemoryWarning()
+//        // Dispose of any resources that can be recreated.
+//    }
+//
 
     /*
     // MARK: - Navigation
@@ -54,4 +55,4 @@ class MyBuyingListViewController: UIViewController, UITableViewDataSource {
     }
     */
 
-}
+//}
