@@ -16,6 +16,7 @@
 		C24F8159210355C300E0C2C5 /* PilotPlant in Resources */ = {isa = PBXBuildFile; fileRef = C24F8158210355C200E0C2C5 /* PilotPlant */; };
 		C24F81602103617000E0C2C5 /* UIViewControllerKeyboard (1).swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F815E2103617000E0C2C5 /* UIViewControllerKeyboard (1).swift */; };
 		C24F81612103617000E0C2C5 /* UIViewControllerModal (1).swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F815F2103617000E0C2C5 /* UIViewControllerModal (1).swift */; };
+		C267DAF82108663F0032EC97 /* MyBuyingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C267DAF72108663F0032EC97 /* MyBuyingListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C24F8158210355C200E0C2C5 /* PilotPlant */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PilotPlant; sourceTree = "<group>"; };
 		C24F815E2103617000E0C2C5 /* UIViewControllerKeyboard (1).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewControllerKeyboard (1).swift"; sourceTree = "<group>"; };
 		C24F815F2103617000E0C2C5 /* UIViewControllerModal (1).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewControllerModal (1).swift"; sourceTree = "<group>"; };
+		C267DAF72108663F0032EC97 /* MyBuyingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBuyingListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				517F489F20FDCDE3001EC8F0 /* AppDelegate.swift */,
 				517F48A120FDCDE3001EC8F0 /* ViewController.swift */,
 				517F48A320FDCDE3001EC8F0 /* Main.storyboard */,
+				C267DAF72108663F0032EC97 /* MyBuyingListViewController.swift */,
 				C22624D721071AC90033CAA6 /* model_prototype.swift */,
 				517F48A620FDCDE6001EC8F0 /* Assets.xcassets */,
 				517F48A820FDCDE6001EC8F0 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 			files = (
 				C24F81602103617000E0C2C5 /* UIViewControllerKeyboard (1).swift in Sources */,
 				517F48A220FDCDE3001EC8F0 /* ViewController.swift in Sources */,
+				C267DAF82108663F0032EC97 /* MyBuyingListViewController.swift in Sources */,
 				C24F81612103617000E0C2C5 /* UIViewControllerModal (1).swift in Sources */,
 				517F48A020FDCDE3001EC8F0 /* AppDelegate.swift in Sources */,
 				C22624D821071AC90033CAA6 /* model_prototype.swift in Sources */,
