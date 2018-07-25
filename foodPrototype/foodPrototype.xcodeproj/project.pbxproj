@@ -16,6 +16,9 @@
 		C24F8159210355C300E0C2C5 /* PilotPlant in Resources */ = {isa = PBXBuildFile; fileRef = C24F8158210355C200E0C2C5 /* PilotPlant */; };
 		C24F81602103617000E0C2C5 /* UIViewControllerKeyboard (1).swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F815E2103617000E0C2C5 /* UIViewControllerKeyboard (1).swift */; };
 		C24F81612103617000E0C2C5 /* UIViewControllerModal (1).swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F815F2103617000E0C2C5 /* UIViewControllerModal (1).swift */; };
+		C2DD35B621086429007BD9A9 /* GongGuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DD35B521086429007BD9A9 /* GongGuTableViewController.swift */; };
+		C2DD35B821086503007BD9A9 /* GongGuDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DD35B721086503007BD9A9 /* GongGuDetailTableViewController.swift */; };
+		C2DD35BA210866FE007BD9A9 /* GongGuDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DD35B9210866FE007BD9A9 /* GongGuDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		C24F8158210355C200E0C2C5 /* PilotPlant */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PilotPlant; sourceTree = "<group>"; };
 		C24F815E2103617000E0C2C5 /* UIViewControllerKeyboard (1).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewControllerKeyboard (1).swift"; sourceTree = "<group>"; };
 		C24F815F2103617000E0C2C5 /* UIViewControllerModal (1).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewControllerModal (1).swift"; sourceTree = "<group>"; };
+		C2DD35B521086429007BD9A9 /* GongGuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GongGuTableViewController.swift; sourceTree = "<group>"; };
+		C2DD35B721086503007BD9A9 /* GongGuDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GongGuDetailTableViewController.swift; sourceTree = "<group>"; };
+		C2DD35B9210866FE007BD9A9 /* GongGuDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GongGuDetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,9 @@
 		517F489320FDCDE3001EC8F0 = {
 			isa = PBXGroup;
 			children = (
+				C2DD35B521086429007BD9A9 /* GongGuTableViewController.swift */,
+				C2DD35B721086503007BD9A9 /* GongGuDetailTableViewController.swift */,
+				C2DD35B9210866FE007BD9A9 /* GongGuDetailTableViewCell.swift */,
 				517F489E20FDCDE3001EC8F0 /* foodPrototype */,
 				517F489D20FDCDE3001EC8F0 /* Products */,
 			);
@@ -151,8 +160,11 @@
 				C24F81602103617000E0C2C5 /* UIViewControllerKeyboard (1).swift in Sources */,
 				517F48A220FDCDE3001EC8F0 /* ViewController.swift in Sources */,
 				C24F81612103617000E0C2C5 /* UIViewControllerModal (1).swift in Sources */,
+				C2DD35B821086503007BD9A9 /* GongGuDetailTableViewController.swift in Sources */,
 				517F48A020FDCDE3001EC8F0 /* AppDelegate.swift in Sources */,
+				C2DD35B621086429007BD9A9 /* GongGuTableViewController.swift in Sources */,
 				C22624D821071AC90033CAA6 /* model_prototype.swift in Sources */,
+				C2DD35BA210866FE007BD9A9 /* GongGuDetailTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
