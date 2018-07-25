@@ -108,11 +108,74 @@
                             <outlet property="delegate" destination="63W-iz-sdh" id="Wa9-ak-b4D"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="공동구매" id="wvm-Uk-qLW"/>
+                    <navigationItem key="navigationItem" title="공동구매" id="wvm-Uk-qLW">
+                        <rightBarButtonItems>
+                            <barButtonItem image="my_notification" id="36J-aR-mda">
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <segue destination="o3Q-Mn-eoc" kind="show" id="tfy-Ix-deL"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="search" id="CUR-hG-nFi">
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <segue destination="xCH-eH-Ruo" kind="show" id="XQC-RU-n8q"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QWp-xf-lcc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1303.2" y="1693.4032983508248"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="N64-fr-C7x">
+            <objects>
+                <viewController id="o3Q-Mn-eoc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yTn-uL-QN0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="siN-cm-6Vz"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="wNR-ZJ-Yzj">
+                        <barButtonItem key="rightBarButtonItem" title="편집" id="pOB-24-nyO"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XVs-MN-etw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4097" y="2481"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Sd-jj-9GU">
+            <objects>
+                <viewController id="xCH-eH-Ruo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T5z-46-iWp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" fixedFrame="YES" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="hGK-HG-P3x">
+                                <rect key="frame" x="0.0" y="64" width="375" height="56"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="인기검색어" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaB-DZ-5gl">
+                                <rect key="frame" x="137" y="159" width="109" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qvA-h7-GY9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SgC-IU-Hq4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3434.4000000000001" y="2480.5097451274364"/>
         </scene>
         <!--상품 보기-->
         <scene sceneID="CoF-PL-ObG">
@@ -252,7 +315,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cGc-kl-L3N" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="9rW-66-86l"/>
             </objects>
-            <point key="canvasLocation" x="-5014" y="2641"/>
+            <point key="canvasLocation" x="-6033" y="2629"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="j5t-u9-dOh">
@@ -454,7 +517,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5yE-fg-HiV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="VED-hb-0rs"/>
             </objects>
-            <point key="canvasLocation" x="-3023.1999999999998" y="2533.5832083958021"/>
+            <point key="canvasLocation" x="-2799" y="2479"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="90Y-b6-ahf">
@@ -836,7 +899,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mmR-mM-h5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-986.39999999999998" y="2461.6191904047978"/>
+            <point key="canvasLocation" x="-822" y="2478"/>
         </scene>
         <!--글쓰기-->
         <scene sceneID="4md-ow-QI7">
@@ -1429,7 +1492,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3eV-9m-6fw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-316" y="2461.6191904047978"/>
+            <point key="canvasLocation" x="-145" y="2478"/>
         </scene>
         <!--채팅방-->
         <scene sceneID="5pX-zi-Qm0">
@@ -1733,6 +1796,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4d7-yc-YVi">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1752,6 +1816,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P9c-4s-3s9">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1771,6 +1836,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WjP-dl-iGU">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1790,6 +1856,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4wo-d5-m6e">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -3224,7 +3291,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="45y-KL-1dY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="K4h-W3-hGO"/>
             </objects>
-            <point key="canvasLocation" x="-4084" y="2641"/>
+            <point key="canvasLocation" x="-5102" y="2629"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="Ni0-m7-TMr">
@@ -3410,7 +3477,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oOy-GN-Cku" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="R86-pS-SYS"/>
             </objects>
-            <point key="canvasLocation" x="-4084" y="1954"/>
+            <point key="canvasLocation" x="-5102" y="1942"/>
         </scene>
         <!--채팅방-->
         <scene sceneID="Nij-U9-eiV">
@@ -3465,6 +3532,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uPa-aA-UfU">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -3671,7 +3739,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rgi-q1-pUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="nmz-HS-lrJ"/>
             </objects>
-            <point key="canvasLocation" x="-2303" y="2534"/>
+            <point key="canvasLocation" x="-2151" y="2479"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="QFR-jW-oVi">
@@ -3864,7 +3932,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNP-2s-e3P" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="RVl-bJ-0JR"/>
             </objects>
-            <point key="canvasLocation" x="-1634.4000000000001" y="2533.5832083958021"/>
+            <point key="canvasLocation" x="-1482" y="2479"/>
         </scene>
         <!--채팅방-->
         <scene sceneID="G4t-ln-uX7">
@@ -5289,6 +5357,6 @@
         <segue reference="bzE-mj-CXj"/>
         <segue reference="XJ9-If-Ned"/>
         <segue reference="TlY-vg-64x"/>
-        <segue reference="Jvq-RY-hvW"/>
+        <segue reference="6ds-l5-fNI"/>
     </inferredMetricsTieBreakers>
 </document>
