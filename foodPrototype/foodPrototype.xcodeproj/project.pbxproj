@@ -26,12 +26,11 @@
 		C22624D821071AC90033CAA6 /* model_prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22624D721071AC90033CAA6 /* model_prototype.swift */; };
 		C24F81602103617000E0C2C5 /* UIViewControllerKeyboard (1).swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F815E2103617000E0C2C5 /* UIViewControllerKeyboard (1).swift */; };
 		C24F81612103617000E0C2C5 /* UIViewControllerModal (1).swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F815F2103617000E0C2C5 /* UIViewControllerModal (1).swift */; };
-<<<<<<< HEAD
+
 		C2DD35B621086429007BD9A9 /* GongGuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DD35B521086429007BD9A9 /* GongGuTableViewController.swift */; };
 		C2DD35B821086503007BD9A9 /* GongGuDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DD35B721086503007BD9A9 /* GongGuDetailTableViewController.swift */; };
 		C2DD35BA210866FE007BD9A9 /* GongGuDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DD35B9210866FE007BD9A9 /* GongGuDetailTableViewCell.swift */; };
-=======
->>>>>>> quino_branch
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,12 +56,11 @@
 		C22624D721071AC90033CAA6 /* model_prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model_prototype.swift; sourceTree = "<group>"; };
 		C24F815E2103617000E0C2C5 /* UIViewControllerKeyboard (1).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewControllerKeyboard (1).swift"; sourceTree = "<group>"; };
 		C24F815F2103617000E0C2C5 /* UIViewControllerModal (1).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewControllerModal (1).swift"; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		C2DD35B521086429007BD9A9 /* GongGuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GongGuTableViewController.swift; sourceTree = "<group>"; };
 		C2DD35B721086503007BD9A9 /* GongGuDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GongGuDetailTableViewController.swift; sourceTree = "<group>"; };
 		C2DD35B9210866FE007BD9A9 /* GongGuDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GongGuDetailTableViewCell.swift; sourceTree = "<group>"; };
-=======
->>>>>>> quino_branch
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
